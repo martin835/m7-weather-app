@@ -5,8 +5,13 @@ import { BsUmbrella } from "react-icons/bs";
 import { SiWindicss } from "react-icons/si";
 import { AiFillStar } from "react-icons/ai";
 import { useNavigate } from "react-router-dom";
+import { useDispatch, useSelector } from "react-redux";
+
 function FavoriteCard() {
   const navigate = useNavigate();
+  const myLocations = useSelector((state) => state.myLocations.locations);
+  const dispatch = useDispatch();
+
   return (
     <Card text="black" style={{ width: "18rem" }} className="mb-2">
       <Card.Header>Bratislava, SK</Card.Header>
