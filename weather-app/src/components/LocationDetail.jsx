@@ -63,26 +63,3 @@ function LocationDetail() {
 }
 
 export default LocationDetail;
-
-{
-  /* <tbody>
-          <tr>
-            <td>Today, 14 Apr.</td>
-            <td>20° / 12°</td>
-            <td>0.1 mm</td>
-            <td>1 (0) m/s</td>
-          </tr>
-          <tr>
-            <td>Friday, 15 Apr.</td>
-            <td>21° / 12°</td>
-            <td>0 mm</td>
-            <td>2 (0) m/s</td>
-          </tr>
-          <tr>
-            <td>Saturday, 16 Apr.</td>
-            <td>20° / 12° </td>
-            <td>0 mm </td>
-            <td>1 (0) m/s</td>
-          </tr>
-        </tbody> */
-}

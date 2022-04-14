@@ -50,7 +50,7 @@ function LocationSearch() {
       <Row className="justify-content-between">
         <Col xs={6}>
           {searchData.map((location) => (
-            <SearchCard location={location} />
+            <SearchCard location={location} key={location.lat + location.lon} />
           ))}
         </Col>
         <Col xs={4}>
