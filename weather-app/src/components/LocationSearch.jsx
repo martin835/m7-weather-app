@@ -1,4 +1,5 @@
 import { Card, Col, Container, Form, Row } from "react-bootstrap";
+import FavoriteCard from "./FavoriteCard";
 import SearchCard from "./SearchCard";
 
 function LocationSearch() {
@@ -15,13 +16,15 @@ function LocationSearch() {
         </Col>
       </Row>
       {/* RESULTS GO HERE: ⬇️⬇️⬇️ */}
-      <Row>
+      <Row className="justify-content-between">
         <Col xs={6}>
           <SearchCard />
           <SearchCard />
           <SearchCard />
         </Col>
-        <Col xs={4}></Col>
+        <Col xs={4}>
+          <FavoriteCard />
+        </Col>
       </Row>
     </Container>
   );
